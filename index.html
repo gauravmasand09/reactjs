@@ -7,12 +7,13 @@
 </head>
 <body>
     <div id="root">
-        <h1>Hello World</h1>
+        <h1>Hello World from HTMl</h1>
     </div>
     <script>
         const heading = document.createElement("h1");
-        heading.innerHTML("Hello World from JS");
+        heading.innerHTML = "Hello World from JS" ;
 
+        // append child is used to append an element to existing element.
         const root = document.getElementById("root");
         root.appendChild(heading);
     </script>
